@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Paneer Butter Masala",
+    "price": 180,
+    "veg": true,
+    "spicy": false,
+    "popular": true,
+    "category": "Main Course"
+  },
+  {
+    "id": 2,
+    "name": "Chicken Biryani",
+    "price": 220,
+    "veg": false,
+    "spicy": true,
+    "popular": true,
+    "category": "Main Course"
+  },
+  {
+    "id": 3,
+    "name": "French Fries",
+    "price": 90,
+    "veg": true,
+    "spicy": false,
+    "popular": true,
+    "category": "Appetizers"
+  },
+  {
+    "id": 4,
+    "name": "Choco Lava Cake",
+    "price": 110,
+    "veg": true,
+    "spicy": false,
+    "popular": true,
+    "category": "Desserts"
+  },
+  {
+    "id": 5,
+    "name": "Cold Coffee",
+    "price": 70,
+    "veg": true,
+    "spicy": false,
+    "popular": false,
+    "category": "Drinks"
+  }
+]
