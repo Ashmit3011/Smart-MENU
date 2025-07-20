@@ -30,14 +30,10 @@ def generate_order_id():
 st.set_page_config(page_title="Smart Table Ordering", layout="wide")
 
 menu = load_json(MENU_FILE)
-if "cart" not in st.session_state:
-    st.session_state.cart = []
-if "table" not in st.session_state:
-    st.session_state.table = ""
-if "order_id" not in st.session_state:
-    st.session_state.order_id = None
-if "last_status" not in st.session_state:
-    st.session_state.last_status = None
+
+if not menu:
+    st.error("Menu is empty! Please add items to menu.json.")
+    st.stop()
 
 # --- Header ---
 st.title("🍽️ Smart Table Ordering")
