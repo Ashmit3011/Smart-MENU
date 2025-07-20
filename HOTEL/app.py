@@ -47,6 +47,9 @@ st.text_input("Enter Table Number", key="table", value=st.session_state.table)
 
 # --- Menu Display with Tabs ---
 categories = sorted(set(item.get("category", "Uncategorized") for item in menu))
+if not categories:
+    st.error("⚠️ No categories found in menu.json. Please add food items with categories.")
+    st.stop()
 tabs = st.tabs(categories)
 
 for index, category in enumerate(categories):
