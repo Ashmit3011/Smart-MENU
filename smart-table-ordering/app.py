@@ -7,7 +7,7 @@ from datetime import datetime
 MENU_FILE = "menu.json"
 ORDER_FILE = "orders.json"
 
-
+# --- Helper Functions ---
 def load_json(file):
     if not os.path.exists(file):
         st.error(f"{file} not found!")
@@ -15,21 +15,32 @@ def load_json(file):
     with open(file, 'r', encoding='utf-8') as f:
         return json.load(f)
 
-
 def save_json(file, data):
     with open(file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-
 
 def generate_order_id():
     orders = load_json(ORDER_FILE)
     return (max([o["id"] for o in orders], default=1000) + 1)
 
-
 # --- Streamlit Page Config ---
 st.set_page_config(page_title="Smart Table Ordering", layout="wide")
 
+# --- Init Session State ---
+if "cart" not in st.session_state:
+    st.session_state.cart = []
+if "table" not in st.session_state:
+    st.session_state.table = ""
+if "order_id" not in st.session_state:
+    st.session_state.order_id = None
+if "last_status" not in st.session_state:
+    st.session_state.last_status = None
+
+# --- Load Menu ---
 menu = load_json(MENU_FILE)
+
+# Debug output (optional)
+# st.write("Loaded menu:", menu)
 
 if not menu:
     st.error("Menu is empty! Please add items to menu.json.")
@@ -95,7 +106,7 @@ if st.session_state.cart:
                 "status": "Pending",
                 "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             }
-            orders = load_json(ORDER_FILE)
+            orders = load_json(ORDER_FILE) if os.path.exists(ORDER_FILE) else []
             orders.append(new_order)
             save_json(ORDER_FILE, orders)
             st.session_state.order_id = new_order["id"]
@@ -118,7 +129,7 @@ if st.session_state.order_id:
     if order:
         current_status = order["status"]
 
-        # Status change detection
+        # Detect status change
         if st.session_state.last_status is None:
             st.session_state.last_status = current_status
         elif st.session_state.last_status != current_status:
