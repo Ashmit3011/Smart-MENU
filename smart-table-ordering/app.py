@@ -39,9 +39,6 @@ if "last_status" not in st.session_state:
 # --- Load Menu ---
 menu = load_json(MENU_FILE)
 
-# Debug output (optional)
-# st.write("Loaded menu:", menu)
-
 if not menu:
     st.error("Menu is empty! Please add items to menu.json.")
     st.stop()
@@ -68,7 +65,6 @@ for index, category in enumerate(categories):
             with st.container():
                 st.markdown(f"**{item['name']}** {tags}")
                 st.caption(f"₹{item['price']}")
-                st.image(item.get("image", "https://via.placeholder.com/300x200"), use_container_width=True)
                 qty = st.number_input(f"Quantity for {item['name']}", min_value=0, step=1, key=f"qty_{item['id']}")
                 if qty > 0:
                     existing = next((c for c in st.session_state.cart if c['id'] == item['id']), None)
