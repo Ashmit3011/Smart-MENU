@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "price": 250,
+    "category": "Main Course",
+    "veg": true,
+    "spicy": false,
+    "popular": true,
+    "image": "https://source.unsplash.com/400x300/?pizza"
+  },
+  {
+    "id": 2,
+    "name": "Paneer Butter Masala",
+    "price": 220,
+    "category": "Main Course",
+    "veg": true,
+    "spicy": true,
+    "popular": true,
+    "image": "https://source.unsplash.com/400x300/?paneer"
+  },
+  {
+    "id": 3,
+    "name": "Chicken Biryani",
+    "price": 280,
+    "category": "Main Course",
+    "veg": false,
+    "spicy": true,
+    "popular": true,
+    "image": "https://source.unsplash.com/400x300/?biryani"
+  },
+  {
+    "id": 4,
+    "name": "French Fries",
+    "price": 120,
+    "category": "Appetizers",
+    "veg": true,
+    "spicy": false,
+    "popular": false,
+    "image": "https://source.unsplash.com/400x300/?fries"
+  },
+  {
+    "id": 5,
+    "name": "Chicken Nuggets",
+    "price": 150,
+    "category": "Appetizers",
+    "veg": false,
+    "spicy": false,
+    "popular": false,
+    "image": "https://source.unsplash.com/400x300/?nuggets"
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Brownie",
+    "price": 100,
+    "category": "Desserts",
+    "veg": true,
+    "spicy": false,
+    "popular": true,
+    "image": "https://source.unsplash.com/400x300/?brownie"
+  },
+  {
+    "id": 7,
+    "name": "Vanilla Ice Cream",
+    "price": 90,
+    "category": "Desserts",
+    "veg": true,
+    "spicy": false,
+    "popular": false,
+    "image": "https://source.unsplash.com/400x300/?icecream"
+  },
+  {
+    "id": 8,
+    "name": "Mango Smoothie",
+    "price": 130,
+    "category": "Drinks",
+    "veg": true,
+    "spicy": false,
+    "popular": true,
+    "image": "https://source.unsplash.com/400x300/?mango"
+  },
+  {
+    "id": 9,
+    "name": "Cold Coffee",
+    "price": 110,
+    "category": "Drinks",
+    "veg": true,
+    "spicy": false,
+    "popular": false,
+    "image": "https://source.unsplash.com/400x300/?coffee"
+  },
+  {
+    "id": 10,
+    "name": "Schezwan Noodles",
+    "price": 200,
+    "category": "Main Course",
+    "veg": true,
+    "spicy": true,
+    "popular": false,
+    "image": "https://source.unsplash.com/400x300/?noodles"
+  }
+]
