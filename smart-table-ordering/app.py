@@ -6,11 +6,13 @@ from datetime import datetime
 st.set_page_config(page_title="Smart Table Ordering", layout="centered")
 
 # Load menu
-if not os.path.exists("menu.json"):
+menu_path = os.path.join(os.path.dirname(__file__), "menu.json")
+
+if not os.path.exists(menu_path):
     st.error("menu.json not found!")
     st.stop()
 
-with open("menu.json", "r") as f:
+with open(menu_path, "r", encoding="utf-8") as f:
     menu = json.load(f)
 
 categories = sorted(set(item["category"] for item in menu if "category" in item))
