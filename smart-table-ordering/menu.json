@@ -6,7 +6,8 @@
     "category": "Mains",
     "spicy": false,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?pizza"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "category": "Mains",
     "spicy": true,
     "veg": false,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?biryani"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "category": "Mains",
     "spicy": false,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?paneer"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "category": "Appetizers",
     "spicy": false,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?fries"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "category": "Appetizers",
     "spicy": false,
     "veg": true,
-    "popular": false
+    "popular": false,
+    "image": "https://source.unsplash.com/featured/?spring-rolls"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "category": "Appetizers",
     "spicy": true,
     "veg": false,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?chicken-wings"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "category": "Desserts",
     "spicy": false,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?gulab-jamun"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "category": "Desserts",
     "spicy": false,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?chocolate-ice-cream"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "category": "South Indian",
     "spicy": true,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?masala-dosa"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "category": "Drinks",
     "spicy": false,
     "veg": true,
-    "popular": true
+    "popular": true,
+    "image": "https://source.unsplash.com/featured/?filter-coffee"
   },
   {
     "id": 11,
@@ -96,6 +106,7 @@
     "category": "Drinks",
     "spicy": false,
     "veg": true,
-    "popular": false
+    "popular": false,
+    "image": "https://source.unsplash.com/featured/?mango-lassi"
   }
 ]
