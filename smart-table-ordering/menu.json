@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "Chicken Tandoori",
+    "name": "Chicken Biryani",
     "price": 220,
     "category": "Main Course",
     "veg": false,
@@ -19,29 +19,74 @@
   },
   {
     "id": 3,
-    "name": "French Fries",
-    "price": 100,
+    "name": "Masala Dosa",
+    "price": 90,
+    "category": "Appetizers",
+    "veg": true,
+    "spicy": false,
+    "popular": true
+  },
+  {
+    "id": 4,
+    "name": "Spring Rolls",
+    "price": 110,
     "category": "Appetizers",
     "veg": true,
     "spicy": false,
     "popular": false
   },
   {
-    "id": 4,
-    "name": "Brownie with Ice Cream",
-    "price": 130,
+    "id": 5,
+    "name": "Butter Naan",
+    "price": 25,
+    "category": "Main Course",
+    "veg": true,
+    "spicy": false,
+    "popular": false
+  },
+  {
+    "id": 6,
+    "name": "Chocolate Brownie",
+    "price": 70,
     "category": "Desserts",
     "veg": true,
     "spicy": false,
     "popular": true
   },
   {
-    "id": 5,
-    "name": "Mango Milkshake",
-    "price": 90,
+    "id": 7,
+    "name": "Vanilla Ice Cream",
+    "price": 50,
+    "category": "Desserts",
+    "veg": true,
+    "spicy": false,
+    "popular": false
+  },
+  {
+    "id": 8,
+    "name": "Cold Coffee",
+    "price": 60,
+    "category": "Drinks",
+    "veg": true,
+    "spicy": false,
+    "popular": true
+  },
+  {
+    "id": 9,
+    "name": "Fresh Lime Soda",
+    "price": 40,
     "category": "Drinks",
     "veg": true,
     "spicy": false,
     "popular": false
+  },
+  {
+    "id": 10,
+    "name": "Mutton Rogan Josh",
+    "price": 260,
+    "category": "Main Course",
+    "veg": false,
+    "spicy": true,
+    "popular": true
   }
 ]
