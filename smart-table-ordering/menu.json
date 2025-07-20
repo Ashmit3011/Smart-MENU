@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Paneer Tikka",
-    "price": 150,
+    "name": "Paneer Butter Masala",
+    "price": 180,
     "category": "Main Course",
     "veg": true,
-    "spicy": true,
+    "spicy": false,
     "popular": true
   },
   {
     "id": 2,
-    "name": "Chicken Biryani",
-    "price": 180,
+    "name": "Chicken Tandoori",
+    "price": 220,
     "category": "Main Course",
     "veg": false,
     "spicy": true,
@@ -19,11 +19,29 @@
   },
   {
     "id": 3,
-    "name": "Gulab Jamun",
-    "price": 60,
+    "name": "French Fries",
+    "price": 100,
+    "category": "Appetizers",
+    "veg": true,
+    "spicy": false,
+    "popular": false
+  },
+  {
+    "id": 4,
+    "name": "Brownie with Ice Cream",
+    "price": 130,
     "category": "Desserts",
     "veg": true,
     "spicy": false,
     "popular": true
+  },
+  {
+    "id": 5,
+    "name": "Mango Milkshake",
+    "price": 90,
+    "category": "Drinks",
+    "veg": true,
+    "spicy": false,
+    "popular": false
   }
 ]
