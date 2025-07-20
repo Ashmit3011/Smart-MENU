@@ -10,8 +10,8 @@ ORDER_FILE = "orders.json"
 
 def load_json(file):
     if not os.path.exists(file):
-        with open(file, 'w', encoding='utf-8') as f:
-            json.dump([], f)
+        st.error(f"{file} not found!")
+        st.stop()
     with open(file, 'r', encoding='utf-8') as f:
         return json.load(f)
 
