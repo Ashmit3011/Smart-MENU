@@ -44,8 +44,10 @@ st.info("🎉 Get a Free Donut!\n\nOrder above ₹200 and enjoy a delicious free
 st.text_input("Enter Table Number", key="table", value=st.session_state.table)
 
 # Load menu and categories
-menu = load_json(MENU_FILE)
-categories = sorted(set(item.get("category", "Uncategorized") for item in menu if "category" in item))
+with open("menu.json", "r") as f:
+    menu = json.load(f)
+
+categories = sorted(list(set(item["category"] for item in menu if "category" in item)))
 
 # Create tabs if there are categories
 if categories:
