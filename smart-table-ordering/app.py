@@ -20,9 +20,7 @@ if not categories:
 
 # UI
 st.markdown("## 🍽️ Smart Table Ordering")
-st.info("🎉 Get a Free Donut!
-
-Order above ₹200 and enjoy a delicious free donut 🍩 with your meal!")
+st.info("🎉 Get a Free Donut!\nOrder above ₹200 and enjoy a delicious free donut 🍩 with your meal!")
 
 table_number = st.text_input("Enter Table Number")
 if not table_number:
