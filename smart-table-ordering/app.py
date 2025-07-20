@@ -4,8 +4,8 @@ import os
 import time
 from datetime import datetime
 
-MENU_FILE = "menu.json"
-ORDER_FILE = "orders.json"
+MENU_FILE = "smart-table-ordering/menu.json"
+ORDER_FILE = "smart-table-ordering/orders.json"
 
 # --- Debug Info ---
 st.write("📁 Current directory:", os.getcwd())
