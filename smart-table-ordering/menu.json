@@ -1,47 +1,101 @@
 [
   {
     "id": 1,
-    "name": "Paneer Butter Masala",
+    "name": "Margherita Pizza",
     "price": 180,
-    "veg": true,
+    "category": "Mains",
     "spicy": false,
-    "popular": true,
-    "category": "Main Course"
+    "veg": true,
+    "popular": true
   },
   {
     "id": 2,
     "name": "Chicken Biryani",
     "price": 220,
-    "veg": false,
+    "category": "Mains",
     "spicy": true,
-    "popular": true,
-    "category": "Main Course"
+    "veg": false,
+    "popular": true
   },
   {
     "id": 3,
-    "name": "French Fries",
-    "price": 90,
-    "veg": true,
+    "name": "Paneer Butter Masala",
+    "price": 190,
+    "category": "Mains",
     "spicy": false,
-    "popular": true,
-    "category": "Appetizers"
+    "veg": true,
+    "popular": true
   },
   {
     "id": 4,
-    "name": "Choco Lava Cake",
-    "price": 110,
-    "veg": true,
+    "name": "French Fries",
+    "price": 80,
+    "category": "Appetizers",
     "spicy": false,
-    "popular": true,
-    "category": "Desserts"
+    "veg": true,
+    "popular": true
   },
   {
     "id": 5,
-    "name": "Cold Coffee",
-    "price": 70,
-    "veg": true,
+    "name": "Spring Rolls",
+    "price": 100,
+    "category": "Appetizers",
     "spicy": false,
-    "popular": false,
-    "category": "Drinks"
+    "veg": true,
+    "popular": false
+  },
+  {
+    "id": 6,
+    "name": "Spicy Chicken Wings",
+    "price": 150,
+    "category": "Appetizers",
+    "spicy": true,
+    "veg": false,
+    "popular": true
+  },
+  {
+    "id": 7,
+    "name": "Gulab Jamun",
+    "price": 60,
+    "category": "Desserts",
+    "spicy": false,
+    "veg": true,
+    "popular": true
+  },
+  {
+    "id": 8,
+    "name": "Chocolate Ice Cream",
+    "price": 90,
+    "category": "Desserts",
+    "spicy": false,
+    "veg": true,
+    "popular": true
+  },
+  {
+    "id": 9,
+    "name": "Masala Dosa",
+    "price": 120,
+    "category": "South Indian",
+    "spicy": true,
+    "veg": true,
+    "popular": true
+  },
+  {
+    "id": 10,
+    "name": "Filter Coffee",
+    "price": 40,
+    "category": "Drinks",
+    "spicy": false,
+    "veg": true,
+    "popular": true
+  },
+  {
+    "id": 11,
+    "name": "Mango Lassi",
+    "price": 60,
+    "category": "Drinks",
+    "spicy": false,
+    "veg": true,
+    "popular": false
   }
 ]
